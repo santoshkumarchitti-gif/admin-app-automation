@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-03T10:24:05 IST" name="Default suite" finished-at="2026-01-03T10:26:29 IST" duration-ms="144802">
+    <groups>
+    </groups>
+    <test started-at="2026-01-03T10:24:05 IST" name="Default test" finished-at="2026-01-03T10:26:29 IST" duration-ms="144802">
+      <class name="com.projectname.tests.LoginTest">
+        <test-method is-config="true" signature="loadData()[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:24:05 IST" name="loadData" finished-at="2026-01-03T10:24:06 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:24:06 IST" name="setup" finished-at="2026-01-03T10:24:16 IST" duration-ms="9729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:24:16 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-01-03T10:24:36 IST" duration-ms="20443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[milleniumsoft1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:24:36 IST" name="tearDown" finished-at="2026-01-03T10:24:36 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:24:36 IST" name="setup" finished-at="2026-01-03T10:24:43 IST" duration-ms="6933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:24:43 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-01-03T10:25:14 IST" duration-ms="30654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:25:14 IST" name="tearDown" finished-at="2026-01-03T10:25:14 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:25:14 IST" name="setup" finished-at="2026-01-03T10:25:21 IST" duration-ms="6807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:25:21 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-01-03T10:25:52 IST" duration-ms="30730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[milleniumsoft1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:25:52 IST" name="tearDown" finished-at="2026-01-03T10:25:52 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:25:52 IST" name="setup" finished-at="2026-01-03T10:25:59 IST" duration-ms="6897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:25:59 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-01-03T10:26:29 IST" duration-ms="30700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.projectname.tests.LoginTest@359df09a]" started-at="2026-01-03T10:26:29 IST" name="tearDown" finished-at="2026-01-03T10:26:29 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.projectname.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
